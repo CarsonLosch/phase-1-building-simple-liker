@@ -11,6 +11,7 @@ const errorModal = document.querySelector('#modal')
     //Invoke mimicServerCall when empty heart is clicked
     findLikes();
   })
+  hideError();
   function hideError() {
     errorModal.classList.add("hidden")
   }
